@@ -1,0 +1,30 @@
+# Python
+venv/
+*.pyc
+__pycache__/
+.env
+*.env
+
+# Data files - NEVER commit raw data
+data/
+*.csv
+*.xlsx
+*.parquet
+*.json # If used for data storage
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb # If you decide to keep notebooks local and only share cleaned versions/scripts
+
+# IDE / Editor specific
+.vscode/
+.idea/
+*.DS_Store
+
+# Build artifacts
+dist/
+build/
+*.egg-info/
+
+# Other
+*.log
